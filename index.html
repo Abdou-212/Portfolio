@@ -1,170 +1,236 @@
+
 <!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Abdourrahmane ANOUAR • Portfolio</title>
-  <meta name="description" content="Portfolio - Recherche contrat en apprentissage BUT2 Informatique (Parcours A - Réalisation d'application)." />
+  <meta name="description" content="Portfolio de Abdourrahmane ANOUAR — BUT Informatique." />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Fira+Code:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <div class="page">
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-      <div class="profile">
+  <header class="topbar">
+    <div class="wrap header-grid">
+      <div class="identity">
         <div class="name">
-          <div class="first">Abdourrahmane</div>
-          <div class="last">ANOUAR</div>
-        </div>
-
-        <div class="pill">
-          <div class="pill-title">RECHERCHE CONTRAT EN APPRENTISSAGE BUT 2</div>
-          <div class="pill-sub">parcours réalisation d’application</div>
-          <div class="pill-sub2">conception, développement, validation • rythme alternance • objectif projet professionnel</div>
+          <div class="big">
+            <span class="tag">&lt;/</span>ANOUAR<br />
+            ABDOURRAHMANE<span class="tag">/&gt;</span>
+          </div>
+          <div class="subtitle">
+            <span class="accent">PORTFOLIO</span><br />
+            Étudiant en BUT Informatique (Parcours A — Réalisation d’applications)
+          </div>
         </div>
       </div>
 
-      <section class="side-block">
-        <h3 class="side-title">Contact</h3>
+      <div class="contact card">
+        <div class="contact-row"><span class="k">Téléphone</span><a class="v link" href="tel:+33749648440">07 49 64 84 40</a></div>
+        <div class="contact-row"><span class="k">E-mail</span><a class="v link" href="mailto:abdou.anouar.pro@gmail.com">abdou.anouar.pro@gmail.com</a></div>
+        <div class="contact-row"><span class="k">LinkedIn</span><a class="v link" href="https://www.linkedin.com/in/abdourrahmane-anouar-22a0b1385" target="_blank" rel="noreferrer">abdourrahmane-anouar</a></div>
+        <div class="contact-row"><span class="k">GitHub</span><a class="v link" href="https://github.com/Abdou-212" target="_blank" rel="noreferrer">Abdou-212</a></div>
+        <div class="contact-row"><span class="k">Adresse</span><span class="v">11 rue de Provence, 92140 Clamart</span></div>
 
-        <div class="kv">
-          <div class="k">Tel :</div>
-          <div class="v"><a class="link-invert" href="tel:+33749648440">07 49 64 84 40</a></div>
+        <div class="contact-actions">
+          <button id="copyEmail" class="btn">Copier l’e-mail</button>
+          <a class="btn btn-ghost" href="#contact">Me contacter</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-          <div class="k">Email :</div>
-          <div class="v"><a class="link-invert" href="mailto:abdou.anouar.pro@gmail.com">abdou.anouar.pro@gmail.com</a></div>
+  <main class="wrap">
+    <div class="separator">
+      <span class="comment">&lt;!-- ---------------------------------------------------------------------------&gt;</span>
+    </div>
 
-          <div class="k">Address :</div>
-          <div class="v">11 rue de Porvence, 92140 Clamart</div>
+    <!-- À PROPOS -->
+    <section class="section" id="about">
+      <h2 class="h2">&lt;/À PROPOS/&gt;</h2>
+      <p class="lead">
+        Étudiant en BUT Informatique, je construis mes compétences en développement logiciel et web
+        à travers des projets académiques. J’aime travailler en équipe, organiser le travail et avancer
+        avec une méthode claire pour livrer un résultat propre.
+      </p>
+    </section>
+
+    <div class="separator">
+      <span class="comment">&lt;!-- ---------------------------------------------------------------------------&gt;</span>
+    </div>
+
+    <!-- COMPÉTENCES -->
+    <section class="section" id="skills">
+      <h2 class="h2">&lt;/COMPÉTENCES/&gt;</h2>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 class="h3">Langages</h3>
+          <ul class="chips">
+            <li>Java</li><li>C++</li><li>Python</li><li>SQL</li><li>HTML</li><li>CSS</li>
+          </ul>
+
+          <h3 class="h3 mt">Outils</h3>
+          <ul class="chips">
+            <li>Git</li><li>Linux</li><li>Visual Paradigm</li>
+          </ul>
         </div>
 
-        <div class="social">
-          <a class="social-btn" href="#" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="social-btn" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+        <div class="card">
+          <h3 class="h3">Bases de données</h3>
+          <ul class="chips">
+            <li>MySQL</li><li>Oracle SQL</li>
+          </ul>
+
+          <h3 class="h3 mt">Méthodes</h3>
+          <div class="kv">
+            <div><span class="k">Gestion de projet</span><span class="v">Gantt • organisation</span></div>
+            <div><span class="k">Travail en équipe</span><span class="v">répartition • communication</span></div>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="side-block">
-        <h3 class="side-title">Formation</h3>
+    <div class="separator">
+      <span class="comment">&lt;!-- ---------------------------------------------------------------------------&gt;</span>
+    </div>
 
-        <div class="edu">
-          <div class="edu-date">Septembre 2025</div>
-          <div class="edu-main">Entrée en deuxième année de BUT Informatique (Parcours A)</div>
-          <div class="edu-sub">Université Paris-Saclay, IUT d’Orsay</div>
+    <!-- PROJETS -->
+    <section class="section" id="projects">
+      <h2 class="h2">&lt;/PROJETS/&gt;</h2>
+
+      <div class="stack">
+        <article class="card project">
+          <div class="project-title">Jeu vidéo en C++</div>
+          <div class="project-desc">
+            Projet de développement avec logique de jeu, structuration du code et tests.
+            <span class="pill-inline">Objectif : travailler en équipe</span>
+          </div>
+          <div class="project-tags">
+            <span class="chip">C++</span><span class="chip">Algo</span><span class="chip">Teamwork</span>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-title">Base de données en SQL</div>
+          <div class="project-desc">
+            Conception d’un modèle relationnel + requêtes (jointures, agrégations, CRUD).
+            <span class="pill-inline">Objectif : travailler en équipe</span>
+          </div>
+          <div class="project-tags">
+            <span class="chip">SQL</span><span class="chip">Modélisation</span><span class="chip">Teamwork</span>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-title">Site web HTML/CSS (voyage imaginaire)</div>
+          <div class="project-desc">
+            Intégration d’un site vitrine avec pages/sections, structure sémantique et mise en page.
+            <span class="pill-inline">Objectif : travailler en équipe</span>
+          </div>
+          <div class="project-tags">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">UI</span><span class="chip">Teamwork</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="separator">
+      <span class="comment">&lt;!-- ---------------------------------------------------------------------------&gt;</span>
+    </div>
+
+    <!-- FORMATIONS -->
+    <section class="section" id="education">
+      <h2 class="h2">&lt;/FORMATIONS/&gt;</h2>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="edu-title">BUT Informatique (entrée en 2e année)</div>
+          <div class="edu-meta">
+            <span class="edu-place">Université Paris-Saclay — IUT d’Orsay</span>
+            <span class="edu-date">Depuis sept. 2025</span>
+          </div>
+          <div class="edu-desc">Parcours A : Réalisation d’applications — conception, développement, validation</div>
         </div>
 
-        <div class="edu sep">
-          <div class="edu-date">2023–2025</div>
-          <div class="edu-main">Baccalauréat technologique</div>
-          <div class="edu-sub">Lycée Eugène Ionesco</div>
-          <div class="edu-sub2">Obtenue avec mention Assez Bien • Spécialités : STI2D</div>
+        <div class="card">
+          <div class="edu-title">Baccalauréat technologique (STI2D)</div>
+          <div class="edu-meta">
+            <span class="edu-place">Lycée Eugène Ionesco</span>
+            <span class="edu-date">2023 — 2025</span>
+          </div>
+          <div class="edu-desc">Obtenu avec mention Assez Bien</div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="side-block">
-        <h3 class="side-title">Compétences Informatiques</h3>
+    <div class="separator">
+      <span class="comment">&lt;!-- ---------------------------------------------------------------------------&gt;</span>
+    </div>
 
-        <div class="skill-group">
-          <div class="skill-h">Développement</div>
-          <div class="skill-line"><span class="dot">•</span> Langages : Java, C++, Python</div>
+    <!-- LANGUES -->
+    <section class="section" id="languages">
+      <h2 class="h2">&lt;/LANGUES/&gt;</h2>
+
+      <div class="card">
+        <div class="lang-row"><span class="k">Français</span><span class="v">Courant</span></div>
+        <div class="lang-row"><span class="k">Anglais</span><span class="v">B2</span></div>
+        <div class="lang-row"><span class="k">Espagnol</span><span class="v">B1</span></div>
+      </div>
+    </section>
+
+    <div class="separator">
+      <span class="comment">&lt;!-- ---------------------------------------------------------------------------&gt;</span>
+    </div>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h2 class="h2">&lt;/CONTACT/&gt;</h2>
+
+      <div class="grid-2">
+        <div class="card">
+          <p class="p">
+            Le plus simple : <a class="link" href="mailto:abdou.anouar.pro@gmail.com">abdou.anouar.pro@gmail.com</a>
+          </p>
+          <div class="contact-actions">
+            <a class="btn" href="mailto:abdou.anouar.pro@gmail.com?subject=Contact%20Portfolio">Envoyer un mail</a>
+            <a class="btn btn-ghost" href="https://github.com/Abdou-212" target="_blank" rel="noreferrer">Voir GitHub</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/abdourrahmane-anouar-22a0b1385" target="_blank" rel="noreferrer">Voir LinkedIn</a>
+          </div>
         </div>
 
-        <div class="skill-group">
-          <div class="skill-h">Développement Web</div>
-          <div class="skill-line"><span class="dot">•</span> Langages : HTML/CSS</div>
+        <div class="card">
+          <div class="tiny">Mini formulaire (ouvre votre client mail)</div>
+          <form id="mailForm" class="form">
+            <label>
+              <span>Objet</span>
+              <input id="subject" type="text" placeholder="Ex: Contact portfolio" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea id="message" rows="5" placeholder="Bonjour Abdourrahmane, ..." required></textarea>
+            </label>
+            <button class="btn" type="submit">Générer l’e-mail</button>
+          </form>
         </div>
+      </div>
+    </section>
 
-        <div class="skill-group">
-          <div class="skill-h">Bases de Données</div>
-          <div class="skill-line"><span class="dot">•</span> SQL : MySQL + SQL</div>
-          <div class="skill-line"><span class="dot">•</span> OracleSQL</div>
-        </div>
-
-        <div class="skill-group">
-          <div class="skill-h">Outils et compétences générales</div>
-          <div class="skill-line"><span class="dot">•</span> Outils : Git, Linux</div>
-          <div class="skill-line"><span class="dot">•</span> Frameworks : VisualParadigm</div>
-          <div class="skill-line"><span class="dot">•</span> Gestion de projet (Gantt)</div>
-        </div>
-      </section>
-
-      <section class="side-block">
-        <h3 class="side-title">Langues</h3>
-        <div class="langs">
-          <div><span class="l">Français</span><span class="r">Courant</span></div>
-          <div><span class="l">Anglais</span><span class="r">Niveau B2</span></div>
-          <div><span class="l">Espagnol</span><span class="r">Niveau B1</span></div>
-        </div>
-      </section>
-    </aside>
-
-    <!-- CONTENT -->
-    <main class="content">
-      <header class="content-header">
-        <h1 class="h1">Projet Informatique</h1>
-        <div class="rule"></div>
-      </header>
-
-      <section class="block">
-        <h2 class="h2">Création d’un jeu vidéo en C++</h2>
-        <ul class="bullets">
-          <li>Conception et développement d’un jeu (architecture du projet, organisation des fichiers, compilation).</li>
-          <li>Gestion de la logique : boucle principale, états (menu/jeu/fin), score, conditions de victoire/défaite.</li>
-          <li>Implémentation des mécaniques : déplacements, collisions, interactions, gestion d’événements.</li>
-          <li>Optimisation & débogage : correction de bugs, amélioration des performances et de la stabilité.</li>
-          <li>Tests & itérations : ajustements gameplay, équilibrage, amélioration de l’expérience utilisateur.</li>
-        </ul>
-      </section>
-
-      <section class="block">
-        <h2 class="h2">Projet Base de données en SQL</h2>
-        <ul class="bullets">
-          <li>Conception d’une base relationnelle : analyse du besoin, identification entités/relations.</li>
-          <li>Création du schéma : tables, clés primaires/étrangères, contraintes d’intégrité.</li>
-          <li>Écriture de requêtes SQL : sélection, jointures, agrégations, filtrage, tri.</li>
-          <li>Mise en place d’opérations CRUD pour la gestion des données.</li>
-          <li>Tests & validation : cohérence, optimisation simple, contrôle des résultats.</li>
-        </ul>
-      </section>
-
-      <section class="block">
-        <h2 class="h2">Site web en HTML — Site de voyage imaginaire</h2>
-        <ul class="bullets">
-          <li>Création d’un site vitrine multi-sections (agence/destination fictive).</li>
-          <li>Intégration des pages : accueil, destinations, offres, formulaire de contact (ou réservation).</li>
-          <li>Organisation sémantique : titres, sections, listes, liens internes, accessibilité de base.</li>
-          <li>Mise en page et cohérence visuelle (CSS si besoin) : navigation, blocs, mise en valeur.</li>
-          <li>Optimisation basique : structure claire, contenu lisible, compatibilité navigateurs.</li>
-        </ul>
-      </section>
-
-      <section class="block note">
-        <div class="note-title">Référent CFA Numia</div>
-        <div class="note-text">Xavier CRENN • <a class="link" href="mailto:xcrenn@cfa-numia.fr">xcrenn@cfa-numia.fr</a></div>
-      </section>
-
-      <footer class="footer">
-        <div class="footer-line"></div>
-        <div class="footer-row">
-          <span>© <span id="year"></span> Abdourrahmane ANOUAR</span>
-          <span class="sep-dot">•</span>
-          <a class="link" href="#" id="copyEmail">Copier l’e-mail</a>
-        </div>
-      </footer>
-    </main>
-  </div>
+    <footer class="footer">
+      <span class="comment">&lt;!-- ---------------------------------------------------------------------------&gt;</span>
+      <div class="footline">
+        <span>© <span id="year"></span> Abdourrahmane ANOUAR</span>
+        <span class="dot">•</span>
+        <a class="link" href="#about">Haut de page</a>
+      </div>
+    </footer>
+  </main>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
