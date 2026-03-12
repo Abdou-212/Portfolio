@@ -505,7 +505,7 @@ textarea::placeholder{
 
 /* Image IUT : un peu plus haute + décalée vers le bas */
 .edu-image-iut{
-  height: 320px;
+  height: 300px;
 }
 
 .edu-image-iut img{
