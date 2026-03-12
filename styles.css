@@ -620,3 +620,13 @@ textarea::placeholder{
     text-align: left;
   }
 }
+
+body{
+  zoom: 1;
+}
+
+@media (min-width: 1500px){
+  body{
+    zoom: 1.1;
+  }
+}
