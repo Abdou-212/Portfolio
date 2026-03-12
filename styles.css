@@ -484,7 +484,7 @@ textarea::placeholder{
 
 .edu-card{
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 1fr 420px;
   gap: 16px;
   align-items: start;
   background: #f7f7f8;
@@ -497,7 +497,7 @@ textarea::placeholder{
 
 .edu-image{
   width: 100%;
-  height: 190px;
+  height: 240px;
   overflow: hidden;
   border-radius: 12px;
   border: 1.5px solid #1f2937;
