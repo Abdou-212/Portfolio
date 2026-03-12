@@ -399,7 +399,7 @@ textarea::placeholder{
 
 .project-row{
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 280px 1fr;
   gap: 16px;
   align-items: start;
   background: #f7f7f8;
@@ -411,12 +411,11 @@ textarea::placeholder{
 }
 
 .project-image{
-  width: 140px;
-  height: 95px;
+  width: 100%;
+  height: 180px;
   overflow: hidden;
   border-radius: 6px;
   border: 1.5px solid #1f2937;
-  flex-shrink: 0;
 }
 
 .project-image img{
@@ -425,6 +424,7 @@ textarea::placeholder{
   object-fit: cover;
   display: block;
 }
+
 .edu-image img{
   width: 100%;
   height: 100%;
@@ -438,18 +438,7 @@ textarea::placeholder{
   gap: 16px;
 }
 
-.edu-card{
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 16px;
-  align-items: start;
-  background: #f7f7f8;
-  color: #1f2937;
-  border: 1.5px solid #1f2937;
-  border-radius: 10px;
-  padding: 12px;
-  box-shadow: 7px 7px 0 #23253b;
-}
+
 
 .edu-text{
   background: #ffffff;
@@ -493,13 +482,25 @@ textarea::placeholder{
   font-size: 13px;
 }
 
+.edu-card{
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 16px;
+  align-items: start;
+  background: #f7f7f8;
+  color: #1f2937;
+  border: 1.5px solid #1f2937;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 7px 7px 0 #23253b;
+}
+
 .edu-image{
-  width: 220px;
-  height: 150px;
+  width: 100%;
+  height: 190px;
   overflow: hidden;
   border-radius: 12px;
   border: 1.5px solid #1f2937;
-  flex-shrink: 0;
 }
 
 .edu-image img{
@@ -576,12 +577,12 @@ textarea::placeholder{
 
   .project-image{
     width: 100%;
-    height: 150px;
+    height: 200px;
   }
 
   .edu-image{
     width: 100%;
-    height: 180px;
+    height: 220px;
   }
 }
 
@@ -602,12 +603,12 @@ textarea::placeholder{
 
   .project-image{
     width: 100%;
-    height: 130px;
+    height: 170px;
   }
 
   .edu-image{
     width: 100%;
-    height: 160px;
+    height: 190px;
   }
 
   .contact-row{
