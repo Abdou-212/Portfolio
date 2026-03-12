@@ -399,7 +399,7 @@ textarea::placeholder{
 
 .project-row{
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 180px 1fr;
   gap: 16px;
   align-items: start;
   background: #f7f7f8;
@@ -411,19 +411,23 @@ textarea::placeholder{
 }
 
 .project-image{
-  width: 140px;
-  height: 95px;
+  width: 180px;
+  height: 120px;
   overflow: hidden;
   border-radius: 6px;
   border: 1.5px solid #1f2937;
-  flex-shrink: 0;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-image img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
+  background: #ffffff;
 }
 
 .edu-stack{
@@ -433,7 +437,7 @@ textarea::placeholder{
 
 .edu-card{
   display: grid;
-  grid-template-columns: 1fr 220px;
+  grid-template-columns: 1fr 240px;
   gap: 16px;
   align-items: start;
   background: #f7f7f8;
@@ -443,6 +447,7 @@ textarea::placeholder{
   padding: 12px;
   box-shadow: 7px 7px 0 #23253b;
 }
+
 
 .edu-text{
   background: #ffffff;
@@ -487,19 +492,23 @@ textarea::placeholder{
 }
 
 .edu-image{
-  width: 220px;
-  height: 150px;
+  width: 240px;
+  height: 170px;
   overflow: hidden;
   border-radius: 12px;
   border: 1.5px solid #1f2937;
-  flex-shrink: 0;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .edu-image img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
+  background: #ffffff;
 }
 
 .project-content h3{
@@ -569,12 +578,12 @@ textarea::placeholder{
 
   .project-image{
     width: 100%;
-    height: 150px;
+    height: 180px;
   }
 
   .edu-image{
     width: 100%;
-    height: 180px;
+    height: 220px;
   }
 }
 
@@ -595,12 +604,12 @@ textarea::placeholder{
 
   .project-image{
     width: 100%;
-    height: 130px;
+    height: 150px;
   }
 
   .edu-image{
     width: 100%;
-    height: 160px;
+    height: 180px;
   }
 
   .contact-row{
