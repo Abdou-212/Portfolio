@@ -443,10 +443,7 @@ textarea::placeholder{
   box-shadow: 7px 7px 0 #23253b;
 }
 
-/* Carte IUT : zone image plus large */
-.edu-card-iut{
-  grid-template-columns: 1fr 520px;
-}
+
 
 .edu-text{
   background: #ffffff;
@@ -508,7 +505,7 @@ textarea::placeholder{
 
 /* Image IUT : un peu plus haute + décalée vers le bas */
 .edu-image-iut{
-  height: 260px;
+  height: 320px;
 }
 
 .edu-image-iut img{
