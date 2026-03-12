@@ -444,7 +444,23 @@ textarea::placeholder{
 }
 
 .edu-card-iut{
-  grid-template-columns: 1fr 500px;
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.edu-card-iut .edu-image{
+  width: 100%;
+  height: 260px;
+}
+
+.edu-card-iut .edu-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .edu-text{
@@ -587,13 +603,16 @@ textarea::placeholder{
     height: 200px;
   }
 
-  .edu-image,
-  .edu-image-iut{
+  .edu-image{
+    width: 100%;
+    height: 220px;
+  }
+
+  .edu-card-iut .edu-image{
     width: 100%;
     height: 220px;
   }
 }
-
 @media (max-width: 700px){
   .grid-2{
     grid-template-columns: 1fr;
