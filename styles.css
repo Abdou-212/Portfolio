@@ -443,8 +443,9 @@ textarea::placeholder{
   box-shadow: 7px 7px 0 #23253b;
 }
 
-.edu-image-iut{
-  height: 260px;
+/* Carte IUT : zone image plus large */
+.edu-card-iut{
+  grid-template-columns: 1fr 520px;
 }
 
 .edu-text{
@@ -505,6 +506,7 @@ textarea::placeholder{
   display: block;
 }
 
+/* Image IUT : un peu plus haute + décalée vers le bas */
 .edu-image-iut{
   height: 260px;
 }
@@ -514,6 +516,7 @@ textarea::placeholder{
   height: 100%;
   object-fit: cover;
   object-position: center 70%;
+  display: block;
 }
 
 .project-content h3{
@@ -587,16 +590,13 @@ textarea::placeholder{
     height: 200px;
   }
 
-  .edu-image{
-    width: 100%;
-    height: 220px;
-  }
-
-  .edu-card-iut .edu-image{
+  .edu-image,
+  .edu-image-iut{
     width: 100%;
     height: 220px;
   }
 }
+
 @media (max-width: 700px){
   .grid-2{
     grid-template-columns: 1fr;
@@ -630,5 +630,16 @@ textarea::placeholder{
 
   .contact .v{
     text-align: left;
+  }
+}
+
+/* Zoom léger sur très grand écran */
+body{
+  zoom: 1;
+}
+
+@media (min-width: 1500px){
+  body{
+    zoom: 1.1;
   }
 }
